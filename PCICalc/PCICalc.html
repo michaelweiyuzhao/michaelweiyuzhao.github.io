@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta name="keywords" content="Calculator, PCI, Roads, Road Quality, Degredation, University of Toronto, Research" />
+    <meta name="description" content="UI for PCI Degredation Calculator developed at the University of Toronto." />
+    <meta name="author" content="Madeh Pyerionesi, Michael Zhao" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link type="text/css" rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+    <title>University of Toronto | PCI Degredation Calculator</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div id="header"></div>
+      <div id="description"></div>
+      <div id="calculator">
+
+        <div class="form-group" id="input fields">
+
+          <div id="user-input-block">
+            <label for="PCI0">Initial PCI</label>
+            <div class="row">
+              <div class="col-xs-2">
+                <input class="form-control" type="number" id="PCI0" placeholder="0"></input>
+              </div>
+            </div>
+          </div>
+
+          <div id="user-input-block">
+            <label for="TOTAL_ANN_PRECIP">Total Annual Precipitation</label>
+            <div class="row">
+              <div class="col-xs-2">
+                <input class="form-control" type="number" id="TOTAL_ANN_PRECIP" placeholder="0"></input>
+              </div>
+            </div>
+          </div>
+
+          <div id="user-input-block">
+            <label for="FREEZE_THAW_YR">Freeze Thaw Cycles per Year</label>
+            <div class="row">
+              <div class="col-xs-2">
+                <input class="form-control" type="number" id="FREEZE_THAW_YR" placeholder="0"></input>
+              </div>
+            </div>
+          </div>
+
+          <div id="user-input-block">
+            <label for="Remed_Years">Remedial Measures Taken per Year</label>
+            <div class="row">
+              <div class="col-xs-2">
+                <input class="form-control" type="number" id="Remed_Years" placeholder="0"></input>
+              </div>
+            </div>
+          </div>
+
+        <div id="go">
+          <button type="submit" class="btn btn-default">Calculate PCI</button>
+        </div>
+
+        <div id="result">
+          <label>Predicted Future PCI</label>
+          <div class="row">
+            <div class="col-xs-2">
+              <div class="panel panel-default">
+                <div class="panel-body" id="result-text">Press "Calculate PCI" for result</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
