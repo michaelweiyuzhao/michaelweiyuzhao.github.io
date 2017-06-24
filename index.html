@@ -5,11 +5,13 @@
     <meta name="keywords" content="Michael Zhao, Weiyu Zhao, Personal Website, University of Toronto, Undergraduate, Please Hire Me"/>
     <meta name="description" content="My test website that will eventually turn into my actual website (WIP)"/>
     <meta name="author" content="Michael Zhao"/>
-    <meta name="revised" content="01/23/2017"/>
+    <meta name="revised" content="06/23/2017"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link type="text/css" rel="stylesheet" href="style.css" />
     <link type="text/css" rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
-    <title>My Test Website</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Michael Zhao | University of Toronto</title>
   </head>
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -27,33 +29,37 @@
   </nav>
 
   <body style="padding-top: 50px;padding-left: 20px;padding-right: 20px">
+
     <h1 class="main-header" id="AboutMe-header">About Me</h1>
     <div class="panel panel-default">
       <div class="panel-body">
-        <div class="text" id="AboutMe-text">I'm actually a pretty boring person so that's why it's empty. I'll fill this section out later.
-          Maybe I'll write enough to make the text wrap just so I can see if the paragraph is formatted to my liking.
-          This should be long enough. Unfortunately it was not long enough, so now I'm back to write more!
-          Originally from Nanjing China, I moved to Vancouver Canada when I was 6 years old. I spent my entire childhood there, from grade 1 to 12.
-          I moved to Toronto for school. I now study Electrical and Computer Engineering at the University of Toronto.
-        </div>
-        <br />
-        <div class="text-subheader">Unfortunately as you can tell, I have absolutely no sense of aesthetics.</div>
+        <div class="text" id="AboutMe-text">Hub site for PCI Calculators for now. Will put more stuff here later.</div>
       </div>
     </div>
+
     <hr />
+
     <h2 class="text-header" id="PCICalc-header">PCI Calculator Webapp</h2>
     <div class="panel panel-default">
       <div class="panel-body">
-        <div class="text-subheader" id="PCICalc-subheader">Really crappy PCI Calculator based on the work of Madeh Piryonesi at the University of Toronto Department of Civil Engineering.</div>
+        <div class="text-subheader" id="PCICalc-subheader">PCI Calculator based on the work of Madeh Piryonesi at the University of Toronto Department of Civil Engineering.</div>
         <br />
-        <a class="btn btn-default" href="https://michaelweiyuzhao.github.io/PCICalculator/" role="button">Click here to go to PCI Calculator Webapp</a>
+        <div class="col-xs-2">
+          <select class="form-control" id="PCICalc-selecter">
+            <option>Default</option>
+            <option>T4</option>
+            <option>8Basic</option>
+          </select>
+        </div>
+        <a class="btn btn-default" id="PCICalc-go" href="https://michaelweiyuzhao.github.io/PCICalculator/" role="button">Click here to go to selected PCI Calculator Webapp</a>
       </div>
     </div>
+
   </body>
 
   <nav class="navbar navbar-inverse navbar-fixed-bottom">
     <div class="container">
-      <p class="navbar-text">Michael Zhao | University of Toronto</p>
+      <p class="navbar-text">Michael Zhao | University of Toronto | 2017</p>
     </div>
   </nav>
 
