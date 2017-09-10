@@ -1,0 +1,26 @@
+.main-header {
+  font-size: 2.7em;
+  text-align: center;
+}
+.text-header {
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.text-subheader {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.text {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.boxed {
+  margin: 3% 10% 3% 10%;
+}
+
+body {
+  background-color: #e3eaed;
+}
