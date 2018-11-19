@@ -1,7 +1,7 @@
 "use strict";
 
 var WIKI_URL = "https://www.runescape.fandom.com/w/api.php";
-var GE_URL = "http://services.runescape.com/m=itemdb_rs/api/catalogue/detail.json?item=";
+var GE_URL = "https://secure.runescape.com/m=itemdb_rs/api/catalogue/detail.json?item=";
 
 var MIN_LEVEL = 1;
 var MAX_LEVEL = 99;
