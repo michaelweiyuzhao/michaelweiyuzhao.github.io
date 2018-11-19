@@ -1,5 +1,6 @@
 "use strict";
 
+var CORS_BYPASS = "https://cors.io/?"
 var WIKI_URL = "https://www.runescape.fandom.com/w/api.php";
 var GE_URL = "https://secure.runescape.com/m=itemdb_rs/api/catalogue/detail.json?item=";
 
@@ -85,7 +86,7 @@ function init_levels(LEVELS){
 
 function get_ge_price(id, request) {
     var price = 0;
-    var api_url = GE_URL + id;
+    var api_url = CORS_BYPASS + GE_URL + id;
     request.open('GET', api_url, true);
     request.onload = function() {
         var data = JSON.parse(this.response);
