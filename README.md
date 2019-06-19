@@ -1,2 +1,2 @@
 # michaelweiyuzhao.github.io
-Yup, it's my site.
+Basically just a place for me to host my resume
